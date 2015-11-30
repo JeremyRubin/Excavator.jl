@@ -1,5 +1,7 @@
 module Excavator
 
-# package code goes here
+include("job.jl")
+include("manager.jl")
+include("node.jl")
 
 end # module
